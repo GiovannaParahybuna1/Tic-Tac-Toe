@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-color: lightslategrey;
+  }
+  
+  #gameBoard {
+    background-color: #ffff;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+  }
+  
+  #gameBoard span {
+    background-color: #000;
+    display: grid;
+    place-content: center;
+    font-size: 5rem;
+  }
+  
+  #gameBoard span.win {
+    background-color: #25a340;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .symbol-x {
+    color: #ffff;
+  }
+  
+  .symbol-o {
+    color: blue;
+  }
+  
+  
+#start{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+  }
+
+#start:hover{
+    background-color: #25a340;
+    color:white;
+
+}
+
+#player1, #player2{
+    height: 25px;
+    border-radius: 25px;
+}
+
+#backPlayer{
+    background-color: #ffffff;
+}
